@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    margin: 0 auto;
+}
+.content {
+    width: 1920px;
+}
+.nav {
+    height: 130px;
+    display: flex;
+    width: 1920px;
+    margin-left: 150px;
+    font-family: "Heebo", sans-serif;
+}
+.nav > img {
+    width: 148px;
+    height: 119px;
+}
+.nav-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 492px;
+    gap: 81px;
+    font-size: 28px;
+}
+.nav-nav > li {
+    height: 130px;
+    padding-top: 45px;
+}
+.nav-nav > li:hover {
+    border-bottom: 10px solid #1a7f72;
+}
+.main {
+    width: 1920px;
+}
+.Meditations {
+    width: 100%;
+    height: 1102px;
+    background-color: #4ec1af;
+    display: flex;
+    flex-direction: column;
+}
+.Meditations > h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin: 0 581px 0 581px;
+    font-family: "Merienda One", cursive;
+    color: white;
+    width: 758px;
+    height: 176px;
+    font-size: 68px;
+}
+.Meditations > p {
+    font-size: 24px;
+    padding-top: 89px;
+    width: 1094px;
+    margin-left: 413px;
+    text-align: -webkit-center;
+    font-family: "Heebo", sans-serif;
+}
+.Meditations > button {
+    margin-top: 25px;
+    color: white;
+    width: 295px;
+    border: none;
+    border-radius: 32px;
+    height: 77px;
+    margin-left: 810px;
+    background-color: #1c9485;
+    font-size: 30px;
+}
+.Meditations > img {
+    width: 609px;
+    height: 610px;
+    margin-left: 657px;
+    padding-top: 72px;
+}
+.card {
+    width: 100%;
+    height: 700px;
+    background-color: #edfbf9;
+    display: flex;
+    gap: 179px;
+    padding-left: 148px;
+    padding-top: 84px;
+    font-family: "Heebo", sans-serif;
+}
+.card-card {
+    width: 420px;
+    height: 535px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-svg {
+    padding-top: 50px;
+}
+.card-title {
+    padding-top: 13px;
+    font-size: 32px;
+}
+.card-text {
+    padding-top: 15px;
+    font-size: 18px;
+    width: 326px;
+    margin: 0 auto;
+}
+.card-button {
+    margin-top: 48px;
+    font-size: 25px;
+    border: none;
+    width: 212px;
+    height: 55px;
+    border-radius: 31px;
+    background-color: #1f9485;
+    color: white;
+    box-shadow: 0px 8px 26px #cccccc;
+}
+.practice {
+    background: #edfbf9;
+    width: 100%;
+    height: 1108px;
+}
+.practice-content {
+    background: url(svg/Group.svg) no-repeat;
+    background-position: right;
+    display: flex;
+    margin-left: 148px;
+    padding-top: 88px;
+    gap: 164px;
+}
+.practice > h1 {
+    font-size: 54px;
+    font-family: "Merienda One", cursive;
+    width: 717px;
+    text-align: center;
+    margin-left: 600px;
+    padding-top: 33px;
+}
+.practice > p {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    margin-left: 418px;
+    width: 1086px;
+    text-align: center;
+    padding-top: 11px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.practice-card {
+    width: 717px;
+    height: 233px;
+}
+.practice-card > h3 {
+    font-size: 32px;
+    font-family: "Heebo", sans-serif;
+    padding-top: 10px;
+    padding-left: 34px;
+}
+.practice-card > p {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    padding-top: 16px;
+    padding-left: 34px;
+    width: 655px;
+}
+.practice-card:hover {
+    background-color: white;
+    border: 1px solid;
+    border: none;
+    border-radius: 10px;
+}
+.best {
+    width: 100%;
+    height: 1314px;
+    background-color: #4ec1af;
+}
+.best > h1 {
+    font-family: "Merienda One", cursive;
+    font-size: 54px;
+    padding-top: 89px;
+    margin-left: 651px;
+}
+.best > p {
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
+    padding-top: 11px;
+    margin-left: 405px;
+    width: 1110px;
+    text-align: center;
+}
+.best-content {
+    display: flex;
+    margin-left: 119px;
+    gap: 71px;
+    padding-top: 67px;
+}
+.best-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 603px;
+    gap: 97px;
+}
+.left-card {
+    width: 597px;
+    height: 200px;
+    background-color: #c3eee8;
+    border: 4px solid #378377;
+    border-radius: 15px;
+}
+.left-card > h3 {
+    font-size: 32px;
+    font-family: "Heebo", sans-serif;
+    text-align: right;
+    padding-top: 22px;
+    padding-right: 32px;
+}
+.left-card > p {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    text-align: right;
+    padding-top: 4px;
+    margin-left: 88px;
+    padding-right: 31px;
+}
+.left-card-card {
+    width: 597px;
+    height: 200px;
+    background-color: #c3eee8;
+    border: 4px solid #378377;
+    border-radius: 15px;
+}
+.left-card-card > h3 {
+    font-size: 32px;
+    font-family: "Heebo", sans-serif;
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 32px;
+}
+.left-card-card > p {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    text-align: right;
+    padding-top: 4px;
+    margin-left: 90px;
+    padding-right: 31px;
+}
+.best-content-right {
+    display: flex;
+    flex-direction: column;
+    width: 603px;
+    gap: 97px;
+}
+.right-card {
+    width: 597px;
+    height: 200px;
+    background-color: #c3eee8;
+    border: 4px solid #378377;
+    border-radius: 15px;
+}
+.right-card > h3 {
+    font-size: 32px;
+    font-family: "Heebo", sans-serif;
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 32px;
+}
+.right-card > p {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    text-align: left;
+    padding-top: 4px;
+    margin-right: 84px;
+    padding-left: 31px;
+}
+.right-card-card {
+    width: 597px;
+    height: 200px;
+    background-color: #c3eee8;
+    border: 4px solid #378377;
+    border-radius: 15px;
+}
+.right-card-card > h3 {
+    font-size: 32px;
+    font-family: "Heebo", sans-serif;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 32px;
+}
+.right-card-card > p {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    text-align: left;
+    padding-top: 4px;
+    margin-right: 70px;
+    padding-left: 31px;
+}
+.transform {
+    background-color: #edfbf9;
+    width: 100%;
+    height: 1686px;
+}
+.transform-main {
+    background: url(svg/background.svg) no-repeat;
+    width: 100%;
+    height: 1590px;
+}
+.transform-main > h1 {
+    font-size: 54px;
+    font-family: "Merienda One", cursive;
+    text-align: center;
+    padding-top: 77px;
+    width: 586px;
+    margin: 0 auto;
+}
+.transform-main > p {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    width: 1074px;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+.transform-content-top {
+    display: flex;
+    padding-top: 66px;
+    margin-left: 200px;
+    gap: 196px;
+}
+.transform-rignt-text {
+    padding-top: 122px;
+}
+.transform-rignt-text > h3 {
+    font-size: 32px;
+    font-family: "Heebo", sans-serif;
+}
+.transform-text-1 {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    padding-top: 11px;
+    width: 600px;
+}
+.transform-text-2 {
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    width: 631px;
+}
+.transform-rignt-text > button {
+    margin-top: 24px;
+    font-size: 25px;
+    border: none;
+    width: 212px;
+    height: 55px;
+    border-radius: 31px;
+    background-color: #1f9485;
+    color: white;
+    box-shadow: 0px 8px 26px #cccccc;
+}
+.transform-content-bottom {
+    display: flex;
+    padding-top: 66px;
+    margin-left: 200px;
+    gap: 123px;
+}
+.transform-left-text{
+    padding-top: 98px;
+}
+.transform-left-text>h3{
+    font-size: 32px;
+    font-family: "Heebo", sans-serif;
+}
+.text-1{
+    font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    padding-top: 11px;
+    width: 600px;
+}
+.text-2{
+     font-size: 24px;
+    font-family: "Heebo", sans-serif;
+    width: 631px;
+}
+.transform-left-text>button{
+    margin-top: 24px;
+    font-size: 25px;
+    border: none;
+    width: 212px;
+    height: 55px;
+    border-radius: 31px;
+    background-color: #1f9485;
+    color: white;
+    box-shadow: 0px 8px 26px #cccccc;
+}
+footer{
+    width: 100%;
+    height: 426px;
+    background-color: #EDFBF9;
+}
+.footer-content{
+    width: 100%;
+    height: 426px;
+    background: url(svg/background1.svg) no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 112px;
+}
+.footer-nav{
+    padding-top: 28px;
+}
+.footer-nav>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 19px;
+    font-size: 28px;
+    font-family: "Heebo", sans-serif;
+}
+.footer-internet{
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    padding-top: 30px;
+}
